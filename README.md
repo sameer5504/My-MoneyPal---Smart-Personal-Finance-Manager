@@ -128,3 +128,18 @@ The app uses SQLite with the following tables:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
+2. Open in Android Studio
+Open the project folder
+Allow Gradle to sync
+3. Run the App
+Use emulator or real device
+Click Run ▶
+
+🧪 Testing
+Create a new account
+Log in
+Add income and expenses
+Set budgets
+View charts and reports
+Try dark mode
+
