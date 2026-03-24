@@ -125,10 +125,6 @@ The app uses SQLite with the following tables:
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-```bash
-## 🚀 Getting Started
-
 ### 2. Open in Android Studio
 - Open the project folder  
 - Allow Gradle to sync  
@@ -179,6 +175,6 @@ Sameer
 ---
 
 ## 📄 License
-This project is for educational purposes.git clone https://github.com/your-username/your-repo-name.git
+This project is for educational purposes.
 
 
