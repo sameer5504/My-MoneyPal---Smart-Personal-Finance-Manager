@@ -127,19 +127,58 @@ The app uses SQLite with the following tables:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-2. Open in Android Studio
-Open the project folder
-Allow Gradle to sync
-3. Run the App
-Use emulator or real device
-Click Run ▶
+## 🚀 Getting Started
 
-🧪 Testing
-Create a new account
-Log in
-Add income and expenses
-Set budgets
-View charts and reports
-Try dark mode
+### 2. Open in Android Studio
+- Open the project folder  
+- Allow Gradle to sync  
+
+### 3. Run the App
+- Use emulator or real device  
+- Click Run ▶  
+
+---
+
+## 🧪 Testing
+1. Create a new account  
+2. Log in  
+3. Add income and expenses  
+4. Set budgets  
+5. View charts and reports  
+6. Try dark mode  
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Dashboard
+![Dashboard](screenshots/home.png)
+
+### 📊 Analytics
+![Charts](screenshots/charts.png)
+
+### 🎯 Budget Management
+![Budget](screenshots/budget.png)
+
+### 🔐 Authentication
+![Login](screenshots/login.png)
+
+---
+
+## 📌 Future Improvements
+- Cloud integration (Firebase)  
+- Notifications for budget alerts  
+- Export reports (PDF/Excel)  
+- AI-based financial insights  
+
+---
+
+## 👤 Author
+Sameer  
+
+---
+
+## 📄 License
+This project is for educational purposes.git clone https://github.com/your-username/your-repo-name.git
+
 
