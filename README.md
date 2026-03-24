@@ -1,59 +1,130 @@
 # 📱 My MoneyPal – Smart Personal Finance Manager
 
-My MoneyPal is an Android application designed to help users manage their personal finances efficiently. It provides tools to track income and expenses, set budgets, and analyze financial data through intuitive visual reports.
+
+## 📌 Overview
+This project is an Android-based personal finance management application that helps users track their income, expenses, and budgets while gaining insights through visual reports and analytics.
+
+The app integrates authentication, local database management, financial tracking, and data visualization in a single system.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- 🔐 User Authentication (Login & Signup)
-- 💰 Income Tracking with categories
-- 💸 Expense Tracking with categories
-- 📊 Visual Reports (Bar Charts & Pie Charts)
-- 📈 Income vs Expenses Analysis
-- 📅 Monthly Financial Summary
-- 🎯 Budget Management
-- 👤 User Profile & Settings
-- 💾 Local Data Storage using SQLite
+### 🔐 User Authentication
+- Sign up with input validation (email, password rules)
+- Login with "Remember Me" functionality
+- Session management using SharedPreferences
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Language:** Java
-- **Platform:** Android (Android Studio)
-- **Database:** SQLite
-- **UI Components:** Activities, Fragments
-- **Architecture:** Multi-fragment navigation structure
+### 💰 Income & Expense Tracking
+- Add, update, and delete transactions
+- Categorize transactions (Income / Expense)
+- Store transaction details (amount, date, category, description)
+- Organized display grouped by date
 
 ---
 
-## 📂 Project Structure
-
-- `LoginActivity` – Handles user login
-- `SignupActivity` – User registration
-- `MainActivity` – Core app container
-- `NavigationActivity` – Manages navigation between fragments
-- `DataBaseHelper` – Handles SQLite database operations
-- `SharedPrefManager` – Manages user session
-
-### Fragments:
-- `HomeFragment` – Dashboard overview
-- `IncomeFragment` – Add/view income
-- `ExpensesFragment` – Add/view expenses
-- `BudgetFragment` – Budget planning
-- `ReportFragment` – Financial reports
-- `IncomeVsExpensesFragment` – Comparison analysis
-- `MonthlyIncomeExpensesFragment` – Monthly summary
-- `ExpensesByCategoryFragment` – Category breakdown
-- `IncomeByCategoryFragment` – Income analysis
+### 📂 Categories Management
+- Create custom income and expense categories
+- Edit and delete categories
+- User-specific category storage
 
 ---
 
-## 📊 Key Functionality
+### 🎯 Budget Management
+- Set budget limits per category
+- Track spending against budget
+- Alerts for:
+  - ⚠ Half reached
+  - ❗ Exceeded
+- Monthly tracking system
 
-- Stores financial data locally using SQLite
-- Categorizes transactions for better tracking
-- Generates insights through visual charts
-- Provides a clear overview of financial status
+---
 
+### 📈 Data Visualization
+- Income vs Expenses (Pie Chart)
+- Expenses by Category (Bar Chart)
+- Income by Category (Bar Chart)
+- Monthly trends (Bar Chart)
+
+---
+
+### 🏠 Dashboard
+- Displays:
+  - Total income
+  - Total expenses
+  - Balance
+- Filter data by:
+  - Day / Week / Month / Custom range
+- Navigate to reports and charts
+
+---
+
+### 📑 Reports
+- Detailed transaction reports within selected period
+- Grouped by date
+- Income/Expense distinction
+
+---
+
+### ⚙️ Settings
+- Dark mode toggle 🌙
+- Period preference (Day / Week / Month)
+- Manage categories
+
+---
+
+### 👤 Profile Management
+- Update user details
+- Change password
+- Input validation
+
+---
+
+## 🗄️ Database Design
+
+The app uses SQLite with the following tables:
+
+- USER → stores user credentials  
+- CATEGORY → user-specific categories  
+- TRANSACTIONS → income & expense records  
+- BUDGET → budget limits  
+- PREFERENCES → user settings  
+
+---
+
+## 🏗️ Architecture
+
+### Activities
+- MainActivity → checks login state
+- LoginActivity, SignupActivity
+
+### Navigation
+- NavigationActivity with Drawer Menu
+
+### Fragments
+- Home, Income, Expenses, Budget
+- Reports & Charts
+- Settings & Profile
+
+### Helpers
+- DataBaseHelper → SQLite operations
+- SharedPrefManager → session management
+
+---
+
+## 🛠️ Technologies Used
+- Java (Android)
+- SQLite Database
+- MPAndroidChart (Data Visualization)
+- Android Fragments & Navigation Drawer
+- SharedPreferences
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
